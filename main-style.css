@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 50px 0 0 0 ;
+    background: url("https://cdn.manfrotto.com/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/u/u/uuid-1800px-inriverimage_367703.jpg");
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 85%;
+    background-color: #ebebeb;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+header img {
+    border-radius: 100px;
+    margin-right: 30px;
+    border: 2px solid black;
+}
+.about-me {
+    width: 85%;
+    background-color: #ebebeb;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 30px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.container {
+    width: 85%;
+    padding: 30px 0;
+    background-color: #ebebeb;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.img-content {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.img-content img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 30px 0;
+    cursor: pointer;
+}
+.container h2 {
+    text-align: center;
+}
+.footer {
+    width: 85%;
+    height: 80px;
+    background-color: #ebebeb;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer a {
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 30px;
+    color: 
+}
