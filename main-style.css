@@ -18,6 +18,8 @@ header {
     margin-bottom: 50px;
 }
 header img {
+    width: 200px;
+    height: 200px;
     border-radius: 100px;
     margin-right: 30px;
     border: 2px solid black;
@@ -31,6 +33,71 @@ header img {
     flex-direction: column;
     padding: 0 30px;
     box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.class, .friends, .turism {
+    width: 85%;
+    background-color: #ebebeb;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.turism-img {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.turism h2 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.our-photos {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.our-photos img {
+    margin-bottom: 50px;
+    width: 400px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.turism img {
+    margin-bottom: 50px;
+    width: 400px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.class li {
+    font-size: 20px;
+}
+.class li a,
+.friends li a {
+    text-decoration: none;
+    color: rgb(178, 218, 2);
+}
+.friends {
+    align-items: center;
+}
+.class h2,
+.friends h2 {
+    text-align: center;
+}
+.friends ol li {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.friends ol {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.friends img {
     margin-bottom: 50px;
 }
 .container {
@@ -69,5 +136,10 @@ header img {
     text-decoration: none;
     margin: 0 20px;
     font-size: 30px;
-    color: 
+}
+@media (max-width: 600px) {
+    header img {
+        width: 150px;
+        height: 150px;
+    }
 }
